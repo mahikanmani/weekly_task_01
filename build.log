@@ -1,0 +1,27 @@
+Started by GitHub push by mahikanmani
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test
+The recommended git tool is: NONE
+using credential mahi04kanmani
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/mahikanmani/java-tomcat-maven-example.git # timeout=10
+Fetching upstream changes from https://github.com/mahikanmani/java-tomcat-maven-example.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials mygit
+ > git fetch --tags --force --progress -- https://github.com/mahikanmani/java-tomcat-maven-example.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision c20d7db364b58d424f520b19e5ea89bc0c436a83 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c20d7db364b58d424f520b19e5ea89bc0c436a83 # timeout=10
+Commit message: "Update README.md"
+ > git rev-list --no-walk 2849985e1a056b87b0235ab88a389facce83e6f8 # timeout=10
+No emails were triggered.
+[test] $ /bin/sh -xe /tmp/jenkins9229287622407305557.sh
++ echo success
+success
+Email was triggered for: Always
+Sending email for trigger: Always
+Not sending mail to unregistered user (id: noreply, email: noreply@github.com) because your SCM claimed this was associated with a user ID ‘noreply' which your security realm does not recognize; you may need changes in your SCM plugin
+Sending email to: mahi04kanmani@gmail.com
